@@ -1,0 +1,16 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border: 10px black solid;
+}
+.headerbody {
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+body {
+	background-color: #00BFC5;
+}
+
+
+	
